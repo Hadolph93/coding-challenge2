@@ -1,0 +1,69 @@
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(immagini/background.jpg);
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+
+.shadow{
+  box-sizing: border-box;
+  margin: 30px 18% 100px;
+  padding:80px;
+  border-radius: 2%;
+  background-color: rgba(1, 0, 0, 0.5);
+}
+
+header{
+  color: lime;
+}
+
+#logo{
+  height: auto;
+  width: 230px;
+}
+
+nav{
+  background-color: lime;
+  padding: 12px;
+}
+
+/* main e figli */
+main{
+  text-align: left;
+  color: white;
+}
+
+h2{
+  display: inline-block;
+}
+
+p{
+box-sizing: border-box;
+margin: 1px;
+}
+
+/* barre colorate */
+main section div{
+  box-sizing: border-box;
+  height: auto;
+  padding: 15px;
+  border-radius: 5px;
+}
+main section:first-child div{
+  width: 35%;
+  padding: 15px;
+  background: rgb(245, 180, 83);
+}
+
+main section:nth-child(2) div{
+  width: 60%;
+  padding: 15px;
+  background: rgb(30, 195, 30);
+}
+
+main section:last-child div{
+  width: 15%;
+  padding: 15px;
+  background: rgb(190, 65, 65);
+}
